@@ -1,0 +1,19 @@
+Index: HW 2.3/rebase.sh
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#!/bin/bash\r\n# display command line options\r\n\r\ncount=1\r\nfor param in \"$@\"; do\r\n    echo \"\\$@ Parameter #$count = $param\"\r\n    count=$(( $count + 1 ))\r\ndone\r\n\r\necho \"=====\"
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/HW 2.3/rebase.sh b/HW 2.3/rebase.sh
+--- a/HW 2.3/rebase.sh	(revision f1007807595f1d0ba95db5993f1882cdc61f48e1)
++++ b/HW 2.3/rebase.sh	(date 1673341917377)
+@@ -3,7 +3,7 @@
+ 
+ count=1
+ for param in "$@"; do
+-    echo "\$@ Parameter #$count = $param"
++    echo "Next parameter: $param"
+     count=$(( $count + 1 ))
+ done
+ 
