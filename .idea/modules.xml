@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MAV-devops-netology.iml" filepath="$PROJECT_DIR$/.idea/MAV-devops-netology.iml" />
+      <module fileurl="file://$PROJECT_DIR$/terra/.idea/terra.iml" filepath="$PROJECT_DIR$/terra/.idea/terra.iml" />
     </modules>
   </component>
 </project>
